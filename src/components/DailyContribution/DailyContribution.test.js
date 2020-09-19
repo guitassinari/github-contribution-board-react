@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer'
 import { shallow } from 'enzyme';
-import ContributionDay from './ContributionDay';
+import ContributionDay from './DailyContribution';
 import Square from '../Square/Square.js'
 
 describe('Contribution day', () => {

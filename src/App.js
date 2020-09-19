@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import ContributionDay from './components/ContributionDay/ContributionDay'
+import ContributionDay from './components/DailyContribution/DailyContribution'
 
 function App() {
   return (
