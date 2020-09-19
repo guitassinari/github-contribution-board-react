@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contribution day Matches snapshot 1`] = `
+<div
+  className="sc-bdnylx bpjleA"
+/>
+`;
+
+exports[`Contribution day When receives count prop and it is 0 (no contribution) it matches snapshot 1`] = `
+<div
+  className="sc-bdnylx bpjleA"
+/>
+`;
+
+exports[`Contribution day When receives count prop and it is between 1 and 2 (low contribution) it matches snapshot 1`] = `
+<div
+  className="sc-bdnylx eUCPVy"
+/>
+`;
+
+exports[`Contribution day When receives count prop and it is between 3 and 5 (medium contribution) it matches snapshot 1`] = `
+<div
+  className="sc-bdnylx bjvuiC"
+/>
+`;
+
+exports[`Contribution day When receives count prop and it is between 6 and 8 (high contribution) it matches snapshot 1`] = `
+<div
+  className="sc-bdnylx hhrawW"
+/>
+`;
+
+exports[`Contribution day When receives count prop and it is higher than 8 (lots of contributions) it matches snapshot 1`] = `
+<div
+  className="sc-bdnylx cnXyeG"
+/>
+`;
