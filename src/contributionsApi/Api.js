@@ -1,5 +1,4 @@
-import { unique } from '../helpers/array'
-import CONTRIBUTIONS from '../../data/contributions.json'
+import CONTRIBUTIONS from '../data/contributions.json'
 
 export function getDailyContributionsByYear(year) {
   if(!year || typeof year !== 'number') {
@@ -10,8 +9,6 @@ export function getDailyContributionsByYear(year) {
     .filter(contribution => new Date(contribution.date).getFullYear() === year)  
 }
 
-export function availableYears() {
+export function allContributions() {
   return CONTRIBUTIONS
-    .map(contribution => new Date(contribution.date).getFullYear().toString())
-    .filter(unique)
 }
