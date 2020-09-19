@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const Square = styled.div`
-  width: 50%;
+  width: 100%;
 
   &:after {
     content: "";

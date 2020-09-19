@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeeklyContribution Matches snapshot 1`] = `
+<div
+  className="sc-gtssRu gRZypD"
+>
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+  <div
+    className="sc-bdnylx hbJBKo"
+  />
+</div>
+`;
+
+exports[`WeeklyContribution when it receives less than 7 contributions Matches snapshot 1`] = `
+<div
+  className="sc-gtssRu gRZypD"
+>
+  <div
+    className="sc-bdnylx jQyfCG"
+  />
+  <div
+    className="sc-bdnylx jQyfCG"
+  />
+  <div
+    className="sc-bdnylx eBgjGy"
+  />
+  <div
+    className="sc-bdnylx eBgjGy"
+  />
+</div>
+`;
+
+exports[`WeeklyContribution when it receives more than 7 contributions Matches snapshot 1`] = `
+<div
+  className="sc-gtssRu gRZypD"
+>
+  <div
+    className="sc-bdnylx jQyfCG"
+  />
+  <div
+    className="sc-bdnylx jQyfCG"
+  />
+  <div
+    className="sc-bdnylx eBgjGy"
+  />
+  <div
+    className="sc-bdnylx eBgjGy"
+  />
+  <div
+    className="sc-bdnylx fWWVcK"
+  />
+  <div
+    className="sc-bdnylx fWWVcK"
+  />
+  <div
+    className="sc-bdnylx fWWVcK"
+  />
+</div>
+`;
+
+exports[`WeeklyContribution when it receives null contributions Matches snapshot 1`] = `
+<div
+  className="sc-gtssRu gRZypD"
+/>
+`;

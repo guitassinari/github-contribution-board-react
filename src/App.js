@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ContributionDay from './components/DailyContribution/DailyContribution'
+import WeeklyContribution from './components/WeeklyContribution/WeeklyContribution';
 
 function App() {
   return (
     <div className="App">
-      <ContributionDay count={9} />
+      <WeeklyContribution contributions={[1, 4, 7, 8 , 0, 9]} />
     </div>
   );
 }
