@@ -2,12 +2,12 @@
 
 exports[`Square Matches snapshot 1`] = `
 <div
-  className="sc-bdnylx hbJBKo"
+  className="sc-bdnylx gPrTLT"
 />
 `;
 
 exports[`Square When receives backgroundColor prop Matches snapshot 1`] = `
 <div
-  className="sc-bdnylx bKUFYM"
+  className="sc-bdnylx fhptMj"
 />
 `;

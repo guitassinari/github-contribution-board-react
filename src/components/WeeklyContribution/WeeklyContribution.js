@@ -5,7 +5,8 @@ import styled from 'styled-components'
 
 const ContributionsContainer = styled.div`
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 3px;
+  align-content: start;
 `
 
 function WeeklyContribution({ contributions }) {
