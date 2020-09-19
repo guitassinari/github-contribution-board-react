@@ -10,3 +10,8 @@ export function splitArrayIntoChunksOf(chunkSize, array) {
 
   return chunks;
 }
+
+
+export function unique(value, index, self) { 
+  return self.indexOf(value) === index;
+}

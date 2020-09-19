@@ -2,91 +2,91 @@
 
 exports[`WeeklyContribution Matches snapshot 1`] = `
 <div
-  className="sc-gtssRu rRoJ"
+  className="sc-gtssRu bNMwbf"
 >
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
   <div
-    className="sc-bdnylx gPrTLT"
+    className="sc-bdnylx hxrzrv"
   />
 </div>
 `;
 
 exports[`WeeklyContribution when it receives contributions Matches snapshot 1`] = `
 <div
-  className="sc-dlnjPT bTrRUP"
+  className="sc-dlnjPT kwtNWV"
 >
   <div
-    className="sc-gtssRu rRoJ"
+    className="sc-gtssRu bNMwbf"
   >
     <div
-      className="sc-bdnylx bkFITR"
+      className="sc-bdnylx cVODbZ"
     />
     <div
-      className="sc-bdnylx bkFITR"
+      className="sc-bdnylx cVODbZ"
     />
     <div
-      className="sc-bdnylx fFbPkp"
+      className="sc-bdnylx goVZGp"
     />
     <div
-      className="sc-bdnylx fFbPkp"
+      className="sc-bdnylx goVZGp"
     />
     <div
-      className="sc-bdnylx fFbPkp"
+      className="sc-bdnylx goVZGp"
     />
     <div
-      className="sc-bdnylx eankiZ"
+      className="sc-bdnylx hmaMxF"
     />
     <div
-      className="sc-bdnylx eankiZ"
+      className="sc-bdnylx hmaMxF"
     />
   </div>
   <div
-    className="sc-gtssRu rRoJ"
+    className="sc-gtssRu bNMwbf"
   >
     <div
-      className="sc-bdnylx eankiZ"
+      className="sc-bdnylx hmaMxF"
     />
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
   </div>
   <div
-    className="sc-gtssRu rRoJ"
+    className="sc-gtssRu bNMwbf"
   >
     <div
-      className="sc-bdnylx dSDfEd"
+      className="sc-bdnylx fLwzJh"
     />
   </div>
 </div>
@@ -94,12 +94,12 @@ exports[`WeeklyContribution when it receives contributions Matches snapshot 1`] 
 
 exports[`WeeklyContribution when it receives null contributions Matches snapshot 1`] = `
 <div
-  className="sc-dlnjPT bTrRUP"
+  className="sc-dlnjPT kwtNWV"
 />
 `;
 
 exports[`WeeklyContribution when receive empty contributions Matches snapshot 1`] = `
 <div
-  className="sc-dlnjPT bTrRUP"
+  className="sc-dlnjPT kwtNWV"
 />
 `;
