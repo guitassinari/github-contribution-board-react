@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import WeeklyContribution from '../WeeklyContribution/WeeklyContribution.js'
 import styled from 'styled-components'
-import { splitArrayIntoChunksOf } from '../../helpers/array'
+import { splitArrayIntoChunksOf } from '../../helpers/Array'
 
 const WEEKS_PER_YEAR = 53
 const NUMBER_OF_WEEK_DAYS = 7

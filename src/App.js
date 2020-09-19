@@ -1,6 +1,7 @@
 import React from 'react';
 import ContributionBoard from './components/ContributionBoard/ContributionBoard';
 import styled from 'styled-components'
+import { contributionsCountsForYear } from './facades/ContributionApiFacade'
 
 const AppContainer = styled.main`
   display: flex;
@@ -15,11 +16,13 @@ const ContributionBoardContainer = styled.div`
   flex-grow: 1;
 `
 
+const contributions = contributionsCountsForYear(2017)
+
 function App() {
   return (
     <AppContainer>
       <ContributionBoardContainer >
-        <ContributionBoard contributions={[1, 4, 7, 8 , 0, 9, 1, 2, 3, 5, 3, 6, 4]} />
+        <ContributionBoard contributions={contributions} />
       </ContributionBoardContainer>
     </AppContainer>
   );
