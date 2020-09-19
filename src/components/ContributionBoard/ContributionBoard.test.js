@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 import { shallow } from 'enzyme';
 import ContributionBoard from './ContributionBoard';
 import WeeklyContribution from '../WeeklyContribution/WeeklyContribution.js'
-import { splitArrayIntoChunksOf } from '../../helpers/array'
+import { splitArrayIntoChunksOf } from '../../helpers/Array'
 
 describe('WeeklyContribution', () => {
   test('Matches snapshot', () => {
