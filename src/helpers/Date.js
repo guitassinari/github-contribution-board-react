@@ -15,7 +15,7 @@ export function previousMondayFrom(date) {
     return dateCopy
   }
   
-  const dayOffsetToMonday = day == 0 ? -6 : 1
+  const dayOffsetToMonday = day === 0 ? -6 : 1
   const diff = dateCopy.getDate() - day + dayOffsetToMonday;
   return new Date(dateCopy.setDate(diff));
 }
