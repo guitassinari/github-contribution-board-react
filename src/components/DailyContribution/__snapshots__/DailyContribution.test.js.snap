@@ -2,36 +2,36 @@
 
 exports[`Contribution day Matches snapshot 1`] = `
 <div
-  className="sc-bdnylx hbJBKo"
+  className="sc-bdnylx gPrTLT"
 />
 `;
 
 exports[`Contribution day When receives count prop and it is 0 (no contribution) it matches snapshot 1`] = `
 <div
-  className="sc-bdnylx hbJBKo"
+  className="sc-bdnylx gPrTLT"
 />
 `;
 
 exports[`Contribution day When receives count prop and it is between 1 and 2 (low contribution) it matches snapshot 1`] = `
 <div
-  className="sc-bdnylx jQyfCG"
+  className="sc-bdnylx bkFITR"
 />
 `;
 
 exports[`Contribution day When receives count prop and it is between 3 and 5 (medium contribution) it matches snapshot 1`] = `
 <div
-  className="sc-bdnylx eBgjGy"
+  className="sc-bdnylx fFbPkp"
 />
 `;
 
 exports[`Contribution day When receives count prop and it is between 6 and 8 (high contribution) it matches snapshot 1`] = `
 <div
-  className="sc-bdnylx fWWVcK"
+  className="sc-bdnylx eankiZ"
 />
 `;
 
 exports[`Contribution day When receives count prop and it is higher than 8 (lots of contributions) it matches snapshot 1`] = `
 <div
-  className="sc-bdnylx ghQYfa"
+  className="sc-bdnylx dSDfEd"
 />
 `;

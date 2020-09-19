@@ -5,6 +5,7 @@ const Square = styled.div`
   width: 100%;
 
   &:after {
+    border-radius: 5px;
     content: "";
     display: block;
     background-color: ${props => props.backgroundColor};

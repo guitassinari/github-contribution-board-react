@@ -2,81 +2,81 @@
 
 exports[`WeeklyContribution Matches snapshot 1`] = `
 <div
-  className="sc-gtssRu gRZypD"
+  className="sc-gtssRu rRoJ"
 >
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
   <div
-    className="sc-bdnylx hbJBKo"
+    className="sc-bdnylx gPrTLT"
   />
 </div>
 `;
 
 exports[`WeeklyContribution when it receives less than 7 contributions Matches snapshot 1`] = `
 <div
-  className="sc-gtssRu gRZypD"
+  className="sc-gtssRu rRoJ"
 >
   <div
-    className="sc-bdnylx jQyfCG"
+    className="sc-bdnylx bkFITR"
   />
   <div
-    className="sc-bdnylx jQyfCG"
+    className="sc-bdnylx bkFITR"
   />
   <div
-    className="sc-bdnylx eBgjGy"
+    className="sc-bdnylx fFbPkp"
   />
   <div
-    className="sc-bdnylx eBgjGy"
+    className="sc-bdnylx fFbPkp"
   />
 </div>
 `;
 
 exports[`WeeklyContribution when it receives more than 7 contributions Matches snapshot 1`] = `
 <div
-  className="sc-gtssRu gRZypD"
+  className="sc-gtssRu rRoJ"
 >
   <div
-    className="sc-bdnylx jQyfCG"
+    className="sc-bdnylx bkFITR"
   />
   <div
-    className="sc-bdnylx jQyfCG"
+    className="sc-bdnylx bkFITR"
   />
   <div
-    className="sc-bdnylx eBgjGy"
+    className="sc-bdnylx fFbPkp"
   />
   <div
-    className="sc-bdnylx eBgjGy"
+    className="sc-bdnylx fFbPkp"
   />
   <div
-    className="sc-bdnylx fWWVcK"
+    className="sc-bdnylx eankiZ"
   />
   <div
-    className="sc-bdnylx fWWVcK"
+    className="sc-bdnylx eankiZ"
   />
   <div
-    className="sc-bdnylx fWWVcK"
+    className="sc-bdnylx eankiZ"
   />
 </div>
 `;
 
 exports[`WeeklyContribution when it receives null contributions Matches snapshot 1`] = `
 <div
-  className="sc-gtssRu gRZypD"
+  className="sc-gtssRu rRoJ"
 />
 `;

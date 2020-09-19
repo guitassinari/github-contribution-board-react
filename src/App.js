@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import WeeklyContribution from './components/WeeklyContribution/WeeklyContribution';
+import ContributionBoard from './components/ContributionBoard/ContributionBoard';
 
 function App() {
   return (
     <div className="App">
-      <WeeklyContribution contributions={[1, 4, 7, 8 , 0, 9]} />
+      <ContributionBoard contributions={[1, 4, 7, 8 , 0, 9, 1, 2, 3, 5, 3, 6, 4]} />
     </div>
   );
 }
