@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import ContributionBoard from './components/ContributionBoard/ContributionBoard';
 import styled from 'styled-components'
 

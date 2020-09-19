@@ -10,9 +10,9 @@ const NUMBER_OF_WEEK_DAYS = 7
 const ContributionsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(${WEEKS_PER_YEAR}, 1fr);
-  grid-gap: 2px;
+  grid-gap: 3px;
   padding: 10px;
-  border: solid 1px black;
+  border: 1px solid #e1e4e8;
   border-radius: 5px;
 `
 
