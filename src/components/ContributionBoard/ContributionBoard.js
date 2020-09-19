@@ -5,17 +5,16 @@ import styled from 'styled-components'
 import { splitArrayIntoChunksOf } from '../../helpers/array'
 
 const WEEKS_PER_YEAR = 53
+const NUMBER_OF_WEEK_DAYS = 7
 
 const ContributionsContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(${WEEKS_PER_YEAR}, 1fr);
-  grid-gap: 10px;
+  grid-gap: 2px;
   padding: 10px;
   border: solid 1px black;
   border-radius: 5px;
 `
-
-const NUMBER_OF_WEEK_DAYS = 7
 
 function ContributionBoard({ contributions }) {
   const filteredContributions = (contributions || [])
