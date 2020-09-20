@@ -11,10 +11,11 @@ const AppContainer = styled.main`
   width: 800px;
   height: 100vh;
   margin: auto;
+  align-items: center;
+  justify-content: center;
 `
 
 const ContributionBoardContainer = styled.div`
-  flex-grow: 1;
   width: 100%;
 `
 
@@ -24,16 +25,21 @@ export default class App extends React.Component {
     const years = availableYears()
     this.state = {
       years: years,
-      selectedYear: years[0]
+      selectedYear: years[0],
     }
   }
+
+  updateselectedYear(newSelectedYear) {
+    this.setState({ selectedYear: newSelectedYear })
+  }
+
 
   render() {
     const contributions = contributionsCountsForYear(Number(this.state.selectedYear))
     return (
       <AppContainer>
-        <Dropdown options={this.state.years} onChange={(option) => this.setState({ selectedYear: option.value })} value={this.state.selectedYear} />
         <ContributionBoardContainer >
+          <Dropdown options={this.state.years} onChange={(option) => this.updateselectedYear(option.value)} value={this.state.selectedYear} />
           <ContributionBoard contributions={contributions} />
         </ContributionBoardContainer>
       </AppContainer>
